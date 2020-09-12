@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+
+}
+
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1em;
+    margin: 1em;
+}
+
+/* TODO: fixup below  */
+
+span {
+    font-family: 'Sacramento', cursive;
+    font-style: italic;
+    font-size: 40px;
+    line-height: .9em;
+    margin: 1em;
+}
+
+h2 + p {
+    margin-top: 100px;
+}
+
+p + h2 {
+    margin-top: -20px;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 300;
+    font-size: 24px;
+    height: 50px;
+    width: 350px;
+    float: left;
+    text-align: left;
+}
+
+.logo h2 {
+    padding: 0px 10px;
+    text-align: left;
+    position: absolute;
+    display: inline;
+    color: #000;
+}
+
+nav {
+    display: table-row;
+}
+
+nav a {
+    font-family: 'Sacramento', cursive;
+    font-style: italic;
+    font-size: 30px;
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    margin: 0 30px;
+    display: inline-flex;
+}
+
+.active {
+    color: #000;
+}
+
+.content a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid;
+    margin: 0 30px;
+    position: relative;
+}
+
+.img-circle {
+    border-radius: 25%;
+}
+
+.sc {
+    font-variant: small-caps;
+}
