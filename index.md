@@ -8,4 +8,4 @@ layout: default
 
 Danielle and Josh are getting married!
 
-December 5, 2020
+December 12, 2020
